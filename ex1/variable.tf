@@ -14,8 +14,9 @@ variable "sam_list"{
   10.2]
 }
 variable "sam_map"{
-  bool = false
-  num = 10
-  str= "devops"
-
+  default = {
+    bool = false
+    num  = 10
+    str  = "devops"
+  }
 }
