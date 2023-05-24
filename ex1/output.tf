@@ -8,5 +8,5 @@ output "sam_list1"{
   value = var.sam_list[2]
 }
 output "sam_map1"{
-  value = var.sam_map["boolean"]
+  value = var.sam_map["bool"]
 }
