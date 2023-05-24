@@ -20,3 +20,6 @@ variable "sam_map"{
     str  = "devops"
   }
 }
+variable "env" {}
+variable "auto_num1" {}
+variable "num2" {}
