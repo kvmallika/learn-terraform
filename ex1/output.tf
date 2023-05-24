@@ -10,12 +10,12 @@ output "sam_list1"{
 output "sam_map1"{
   value = var.sam_map["bool"]
 }
-output "num2" {
+output "terranum2" {
   value = var.num2
 }
-output "auto_num1" {
+output "auto_num" {
   value = var.auto_num1
 }
-output "env" {
+output "envpd" {
   value = var.env
 }
