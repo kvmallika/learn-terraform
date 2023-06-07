@@ -8,7 +8,7 @@ variable "vegetables" {
 resource "null_resource" "vegetables"{
   for_each = var.vegetables
 
-  provisioner "local_exec" {}
+  #provisioner "local_exec" {}
 
 }
 
