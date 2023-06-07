@@ -23,3 +23,4 @@ variable "sam_map"{
 variable "env" {}
 variable "auto_num1" {}
 variable "num2" {}
+
