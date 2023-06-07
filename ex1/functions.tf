@@ -1,8 +1,8 @@
-variable "sample" {
+variable "ufunc" {
   default = "abc"
 }
 
-output "sample" {
-  value = upper(var.sample)
+output "ufunc" {
+  value = upper(var.ufunc)
 
 }
